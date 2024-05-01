@@ -14,7 +14,7 @@
 
     const {
         gender,
-        name: { lastName } // here we cannot declare data-types, as it will work like alias
+        name: { lastName } // here we cannot declare data-types, as it will work like alias (name-alias)
     } = personInfo;
 
 
