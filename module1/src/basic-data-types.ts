@@ -32,4 +32,7 @@ let friend: string[] = ["Fahim", "Nahid", "Rasel", "Karib"] // As it is a sting 
 
 let person: [string, number, boolean] = ["Fahim", 27, true] // here we have to maintain the order of data types. Means first string, then number, then boolean.
 
-person[1] = 'nahid' // it is not possible as the second value is a number type. So, we cannot assign string there.
+// person[1] = 'nahid'
+// it is not possible as the second value is a number type. So, we cannot assign string there.
+
+person [1] = 28 // now it is possible as it is a number type.
