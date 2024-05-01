@@ -19,3 +19,17 @@ let y: null = null
 let z: any
 
 // we should not declare 'any' data type. By this, we are actually ignoring the power of typescript.
+
+
+// Array [Non primitive data type]
+
+let friend: string[] = ["Fahim", "Nahid", "Rasel", "Karib"] // As it is a sting type array, so we cannot put anything else here except string.
+
+
+
+// tuple => it is also a type of array. But here it maintains 'order'
+// A tuple is a data structure that allows us to store a fixed-size ordered collection of elements. Each element in a tuple can have a different data type.
+
+let person: [string, number, boolean] = ["Fahim", 27, true] // here we have to maintain the order of data types. Means first string, then number, then boolean.
+
+person[1] = 'nahid' // it is not possible as the second value is a number type. So, we cannot assign string there.
