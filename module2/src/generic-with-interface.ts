@@ -1,6 +1,5 @@
 {
     // generic interface type
-
     interface Developer<T> {
         name: string,
         computer: {
