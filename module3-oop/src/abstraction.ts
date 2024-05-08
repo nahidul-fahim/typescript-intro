@@ -75,16 +75,4 @@
             console.log('I am moving the car')
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
